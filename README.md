@@ -2,13 +2,6 @@
  This repository contains an implementation of the Vision Transformer (ViT) model for image classification using PyTorch. The model is trained and evaluated on the CIFAR-10 dataset.
 
 ## Requirements
-torch
-torchvision
-torchmetrics
-matplotlib
-numpy
-
-## Requirements
 
 ```bash
 torch
@@ -16,6 +9,14 @@ torchvision
 torchmetrics
 matplotlib
 numpy
+```
+## Project Structure
+
+```
+.
+├── vit_main.ipynb          # Main notebook with training pipeline
+├── transformer_models.py    # ViT model implementation
+└── data/                   # Directory for CIFAR-10 dataset
 ```
  
 ## Citation
