@@ -14,8 +14,8 @@ numpy
 
 ```
 .
-├── vit_main.ipynb          # Main notebook with training pipeline
-├── transformer_models.py    # ViT model implementation
+├── main.ipynb          # Main notebook with training pipeline
+├── vit_architecture.py    # ViT model implementation
 └── data/                   # Directory for CIFAR-10 dataset
 ```
  
